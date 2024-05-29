@@ -99,7 +99,7 @@
     padding-top: 115px;
 }
 
-.mt-24 {
+.mt-180 {
     margin-top: 180px;
 }
 
@@ -304,4 +304,8 @@
 
 .mt-115 {
     margin-top: 115px;
+}
+
+.mt-md-80 {
+    margin-top: 80px;
 }
