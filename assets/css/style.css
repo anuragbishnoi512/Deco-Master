@@ -238,3 +238,70 @@
     text-align: center;
     color: var(--color-white);
 }
+
+.welcome-font {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.lorem-para-font {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    opacity: 70%;
+    color: var(--color-black);
+}
+
+.sec-4-col-para {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.transition-none {
+    transition: none !important;
+}
+
+.welcome-left {
+    left: 0;
+    top: -2%;
+}
+
+.welcome-left {
+    opacity: unset;
+}
+
+.welcome-right {
+    right: 0;
+    top: 50%;
+}
+
+.welcome-right {
+    opacity: unset;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
