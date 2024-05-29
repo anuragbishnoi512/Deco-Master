@@ -26,7 +26,7 @@
                     <div>
                         <img src="./assets/images/deco-icon.png" alt="image">
                     </div>
-                    <div class="d-flex align-items-center">
+                    <div class="nav-menu d-flex align-items-center">
                         <ul class="d-flex align-items-center gap-5 m-0 ">
                             <li><a href="" class="nav-items">Home</a></li>
                             <li><a href="" class="nav-items">Overview</a></li>
@@ -35,6 +35,11 @@
                             <li><a href="" class="nav-items">How It Works</a></li>
                             <li><a href="" class="nav-items">FAQs</a></li>
                         </ul>
+                    </div>
+                    <div class="menubox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -51,8 +56,8 @@
     </header>
     <!-- section-1 -->
     <section class="pt-115 position-relative">
-        <img src="./assets/images/orange-splash.jpg" alt="splash" class="position-absolute red-splash d-none">
-        <img src="./assets/images/red-splash.jpg" alt="splash" class="position-absolute orange-splash d-none">
+        <img src="./assets/images/orange-splash.jpg" alt="splash" class="position-absolute red-splash d-none d-sm-flex">
+        <img src="./assets/images/red-splash.jpg" alt="splash" class="position-absolute orange-splash d-none d-sm-flex">
         <div class="container position-relative">
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <h2 class="chose-font">Why Choose Us?</h2>
@@ -410,13 +415,14 @@
             <div class="row flex-column-reverse flex-lg-row mt-115">
                 <div class="col-lg-6 col-12 d-flex flex-column justify-content-center">
                     <h2 class="welcome-font">Welcome</h2>
-                    <p class="lorem-para-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p class="lorem-para-font">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
                         Lorem Ipsum has been
                         the industry's standard
                         dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
                         to make a type specimen
                         book.</p>
-                    <div class="row">   
+                    <div class="row">
                         <div class="col-sm-6 col-12 ">
                             <div class="d-flex align-items-center gap-10">
                                 <div class="sec-4-col-imgbox">
@@ -454,6 +460,114 @@
                 <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center">
                     <img src="./assets/images/brush-girl.png" alt="girl-painting" class="w-100">
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-4 -->
+    <section class="xxxl-pb-436 xxl-pb-300">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <h2 class="chose-font">Our Process</h2>
+            <span class="mb-40">
+                <svg width="36" height="10" viewBox="0 0 36 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5" cy="5" r="5" fill="url(#paint0_linear_34717_10124)" />
+                    <circle cx="18" cy="5" r="5" fill="url(#paint1_linear_34717_10124)" />
+                    <circle cx="31" cy="5" r="5" fill="url(#paint2_linear_34717_10124)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_34717_10124" x1="0" y1="5" x2="8.5" y2="5"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F9AF0A" />
+                            <stop offset="1" stop-color="#92AA61" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_34717_10124" x1="13" y1="5" x2="22" y2="5"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#1798BC" />
+                            <stop offset="1" stop-color="#0185D3" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_34717_10124" x1="26" y1="5" x2="36" y2="5"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#7142A2" />
+                            <stop offset="1" stop-color="#B31376" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </span>
+        </div>
+        <div class="container_process">
+            <div class="row position_row">
+                <div class="col_xl_2 col-lg-4 col-sm-6 col-12 d-flex
+                             flex-xxl-column flex-column-reverse align-items-center">
+                    <p class="sec-5-font">1. Request a free estimate</p>
+                    <div class="col-5-imgbox mb-2 mb-xxl-0 ">
+                        <img src="./assets/images/5th-1st.png" alt="couple" class="w-100 img-z-index">
+                        <div class="sec_5_position_img1">
+                            <img src="./assets/images/position-1.png" alt="lines" class="position-img-1">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col_xl_2 col-lg-4 col-sm-6 col-12 ">
+                    <div class=" sec_5_position d-flex flex-column-reverse align-items-center">
+                        <div class="sec_5_position_img2">
+                            <img src="./assets/images/position-2.png" alt="lines">
+                        </div>
+                        <p class="sec-5-font">2. Schedule Your Service</p>
+                        <div class="col-5-imgbox mb-2 mb-xxl-0">
+                            <img src="./assets/images/5th-2nd.png" alt="couple" class="w-100 img-z-index">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col_xl_2 col-lg-4 col-sm-6 col-12 d-flex flex-xxl-column flex-column-reverse align-items-center">
+                    <p class="sec-5-font">3. Extensive Prep Work</p>
+                    <div class="col-5-imgbox mb-2 mb-xxl-0">
+                        <img src="./assets/images/5th-3rd.png" alt="couple" class="w-100 img-z-index">
+                        <div class="sec_5_position_img3">
+                            <img src="./assets/images/position-3.png" alt="lines" class="position-img-3">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col_xl_2 col-lg-4 col-sm-6 col-12 ">
+                    <div class="sec_5_position d-flex flex-column-reverse align-items-center">
+                        <div class="sec_5_position_img4">
+                            <img src="./assets/images/position-4.png" alt="lines">
+                        </div>
+                        <p class="sec-5-font">4. The Paint Magic Begins</p>
+                        <div class="col-5-imgbox mb-2 mb-xxl-0">
+                            <img src="./assets/images/5th-4th.png" alt="couple" class="w-100 img-z-index">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col_xl_2 col-lg-4 col-sm-6 col-12 d-flex flex-xxl-column flex-column-reverse align-items-center justify-content-start">
+                    <p class="sec-5-font">5. Wash Up & Clean Up</p>
+                    <div class="col-5-imgbox mb-2 mb-xxl-0">
+                        <img src="./assets/images/5th-5th.png" alt="couple" class="w-100 img-z-index">
+                        <div class="sec_5_position_img5">
+                            <img src="./assets/images/position-5.png" alt="lines" class="position-img-5">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col_xl_2 col-lg-4 col-sm-6 col-12 ">
+                    <div class="sec_5_position d-flex flex-column-reverse align-items-center">
+                        <div class="sec_5_position_img6">
+                            <img src="./assets/images/position-6.png" alt="lines">
+                        </div>
+                        <p class="sec-5-font">6. Perform Inspection</p>
+                        <div class="col-5-imgbox mb-2 mb-xxl-0">
+                            <img src="./assets/images/5th-6th.png" alt="couple" class="w-100 img-z-index">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col_xl_2 col-lg-4 col-sm-6 col-12 d-flex flex-xxl-column flex-column-reverse align-items-center">
+                    <p class="sec-5-font">7. Pay & Enjoy Newly Painted Space!</p>
+                    <div class="col-5-imgbox mb-2 mb-xxl-0">
+                        <img src="./assets/images/5th-7th.png" alt="couple" class="w-100">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
