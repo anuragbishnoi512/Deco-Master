@@ -163,7 +163,7 @@
 }
 
 /* ------------------------------------------ */
-.nav-items {
+/* .nav-items {
     position: relative;
     transition: color 0.1s;
 }
@@ -171,7 +171,7 @@
 .nav-items:hover {
     color: #9104E5;
     animation: magicTypeAnimation 1s infinite alternate;
-}
+} */
 
 .slick-prev {
     display: none !important;
@@ -333,7 +333,57 @@
     display: none;
 }
 
+.readmore {
+    padding: 8px 25px 8px 25px;
+    background-color: var(--color-darkblue);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-white);
+    border: 1px solid #010080;
+    border-radius: 4px;
+    background-color: #010080;
+}
 
+.readmore:hover {
+    background-color: var(--color-white);
+    color: #010080;
+}
+
+
+.sec-6-card-para {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    max-width: 471px;
+}
+
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.sec-6-position-img-1 {
+    left: 14%;
+    top: -27%;
+}
+
+.sec-6-position-img-2 {
+    top: -68%;
+    right: 6%;
+}
+
+.sec-6-position-img-3 {
+    top: -82%;
+    left: 6%;
+}
 
 @media (min-width:1600px) {
 
@@ -408,6 +458,32 @@
 
     .xxxl-pb-436 {
         padding-bottom: 436px !important;
+    }
+
+    .sec-6-card::after {
+        content: "";
+        position: absolute;
+        background: #EEEEEE;
+        width: 91% !important;
+        height: 370px;
+        right: 0;
+        top: 26%;
+        border-radius: 10px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .sec-6-card-2::after {
+        content: "";
+        position: absolute;
+        background: #EEEEEE;
+        width: 91% !important;
+        height: 370px;
+        left: 0;
+        top: 26%;
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
     }
 }
 
@@ -495,6 +571,32 @@
 
     .xxl-pb-80 {
         padding-bottom: 80px;
+    }
+
+    .sec-6-card-heading {
+        font-family: "Poppins", sans-serif;
+        font-size: var(--font-size-48);
+        font-weight: 500;
+        line-height: 72px !important;
+        text-align: left;
+    }
+
+    .sec-6-card-heading-blue {
+        font-family: "Poppins", sans-serif;
+        font-size: var(--font-size-64);
+        font-weight: 700;
+        line-height: 96px !important;
+        text-align: left;
+        color: #010080;
+    }
+
+    .sec-6-card-para {
+        font-family: "Poppins", sans-serif;
+        font-size: var(--font-size-18);
+        font-weight: 400;
+        line-height: 27px !important;
+        text-align: left;
+        max-width: 471px;
     }
 
 }
@@ -611,5 +713,9 @@
 
     .sec-2-position-right {
         opacity: 40%;
+    }
+
+    .sec-6-position-img-1 {
+        opacity: 50%;
     }
 }
